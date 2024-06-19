@@ -1,0 +1,42 @@
+
+.profileGridContainer{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns:  1fr 1fr 1fr;
+    height: 20px;
+    justify-content: center;
+    gap: 2px;
+    margin:30px;
+    padding-top:2px;
+}
+
+.gridItem{
+    align-self: center;
+    border: 2px solid green;
+    height: 250px;
+    border-radius: 5px;
+}
+
+img{
+    width: 60px;
+    height: 60px;
+    padding-top: 10px;
+}
+
+.gridFlexItem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.flexName{
+    align-content: flex-start;
+}
+
+.flexPlace{
+    align-content: flex-start;
+}
+.flexfollowers{
+    align-content: flex-start;
+}
