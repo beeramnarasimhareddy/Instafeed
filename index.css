@@ -3,10 +3,10 @@
     display: grid;
     grid-template-rows: 1fr 1fr;
     grid-template-columns:  1fr 1fr 1fr;
-    height: 20px;
+    height: 30px;
     justify-content: center;
     gap: 2px;
-    margin:30px;
+    margin:20px;
     padding-top:2px;
 }
 
@@ -15,28 +15,34 @@
     border: 2px solid green;
     height: 250px;
     border-radius: 5px;
+    ;
 }
 
 img{
-    width: 60px;
-    height: 60px;
+    width: 200px;
+    height: 170px;
     padding-top: 10px;
 }
 
 .gridFlexItem{
-    display: flex;
+    display:flex ;
     flex-direction: column;
     align-items: center;
+    padding: 5px;
+}
+.cmd{
+    display: inline-block;
+    gap: 5px;
     padding: 10px;
 }
-
-.flexName{
-    align-content: flex-start;
+h1{
+    margin-left: 20px;
 }
 
-.flexPlace{
-    align-content: flex-start;
+body{
+    background-image: url("https://t3.ftcdn.net/jpg/05/17/38/58/360_F_517385838_xHB4k2STUNhPtX7Ynjjeemw7VW2OQXPb.jpg");
 }
-.flexfollowers{
-    align-content: flex-start;
-}
+
+
+    
+    
